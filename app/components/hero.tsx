@@ -6,7 +6,7 @@ import { Download, Mail, MapPin } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="mt-8 min-h-screen px-6 pb-16 pt-36 lg:px-8">
+    <section className="mt-8  px-6 pb-16 pt-36 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,8 +51,8 @@ export default function Hero() {
         </div>
 
         {/* Personal Details */}
-        <div className="mt-6 grid grid-cols-2 gap-4 md:mt-10 md:grid-cols-3 md:gap-10">
-          <div className="flex items-center gap-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 md:mt-10 md:grid-cols-2 md:gap-10">
+          <div className="flex items-center gap-2 whitespace-nowrap">
             <MapPin size={18} className="shrink-0 text-neutral-500" />
 
             <p className="text-sm font-medium text-black">
@@ -61,7 +61,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 whitespace-nowrap">
             <Mail size={18} className="shrink-0 text-neutral-500" />
 
             <a

@@ -132,15 +132,18 @@ export default function SelectedWork() {
                 <article className="group relative h-full overflow-hidden rounded-2xl bg-black px-6 py-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/10 sm:px-8 sm:py-9">
                   <div className="flex h-full flex-col">
                     {/* Project Info */}
-                    <div className="flex gap-5">
+                    <div className="md:flex gap-5">
 
 
-                      <span className="pt-1 text-xs font-medium tracking-[0.12em] text-white/30">
+                      <span className="pt-1 md:flex hidden text-xs font-medium tracking-[0.12em] text-white/30">
                         {project.number}
                       </span>
 
                       <div className="min-w-0">
                         <div className="flex items-center gap-3">
+                        <span className="pt-1 md:hidden flex text-xs font-medium tracking-[0.12em] text-white/30">
+                        {project.number}
+                      </span>
                           <h3 className="text-xl font-semibold tracking-[-0.03em] text-white sm:text-2xl">
                             {project.name}
                           </h3>

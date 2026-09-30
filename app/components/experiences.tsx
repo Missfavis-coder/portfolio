@@ -58,7 +58,7 @@ export default function Experience() {
                 duration: 0.45,
                 delay: index * 0.06,
               }}
-              className="group py-4 flex justify-between items-center"
+              className="group py-4 md:flex block justify-between items-center"
             >
               <div>
                 <div className="flex items-center gap-2">
@@ -69,15 +69,15 @@ export default function Experience() {
                   </h3>
                 </div>
 
-                <div className="mt-1.5 flex flex-wrap items-center gap-2 text-sm text-black/45">
+                <div className="mt-1.5 flex flex-wrap items-center gap-2 text-sm text-black/55">
                   <span>{experience.company}</span>
                   <span>·</span>
                   <span>{experience.type}</span>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4 md:justify-end">
-                <span className="text-sm text-black/40">
+              <div className="flex items-center md:mt-0 mt-3 gap-4 md:justify-end justify-between whitespace-nowrap">
+                <span className="text-sm text-black/60">
                   {experience.period}
                 </span>
 
