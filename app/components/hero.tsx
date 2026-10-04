@@ -39,8 +39,8 @@ export default function Hero() {
 
           {/* CV */}
           <motion.a
-            href="/Ojo-Adeshola-CV.pdf"
-            download="Ojo-Adeshola-CV.pdf"
+            href="/Ojo-Adeshola-Cv.pdf"
+            download="Ojo-Adeshola-Cv.pdf"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.98 }}
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-black px-5 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-[#ffbb00] hover:text-black"
